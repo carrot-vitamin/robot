@@ -12,7 +12,7 @@ public class NormalParser extends AbstractMoLiResParseHandler {
 
     @Override
     public String parse(String response) {
-        return null;
+        return response;
     }
 
     @Override
