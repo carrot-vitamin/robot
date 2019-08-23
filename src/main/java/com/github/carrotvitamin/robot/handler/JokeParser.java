@@ -22,7 +22,7 @@ public class JokeParser extends AbstractMoLiResParseHandler {
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void init() {
         MoLiResParserFactory.PARSE_HANDLER_MAP.put(RobotResTypeEnum.笑话, this);
     }
 }

@@ -1,6 +1,5 @@
 package com.github.carrotvitamin.robot;
 
-import com.github.carrotvitamin.robot.model.RobotResponse;
 import com.github.carrotvitamin.robot.service.IMoLiService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,9 +16,17 @@ public class RobotApplicationTests {
 
     @Test
     public void contextLoads() throws Exception {
-        RobotResponse response = this.moLiService.qa("笑话");
-        System.out.println("=======================");
-        System.out.println(response.getData());
+        System.out.println("******************************************");
+        System.out.println(this.moLiService.qa("笑话").getData());
+        System.out.println("******************************************");
+        System.out.println(this.moLiService.qa("观音灵签").getData());
+        System.out.println("******************************************");
+        System.out.println(this.moLiService.qa("月老灵签").getData());
+        System.out.println("******************************************");
+        System.out.println(this.moLiService.qa("财神爷灵签").getData());
+        System.out.println("******************************************");
+        System.out.println(this.moLiService.qa("你叫什么名字啊？").getData());
+        System.out.println("******************************************");
     }
 
 }

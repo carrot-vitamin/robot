@@ -16,7 +16,7 @@ public class NormalParser extends AbstractMoLiResParseHandler {
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void init() {
         MoLiResParserFactory.PARSE_HANDLER_MAP.put(RobotResTypeEnum.普通文本, this);
     }
 }
