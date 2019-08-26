@@ -1,3 +1,7 @@
+server:
+  servlet:
+    context-path: /robot
+
 moli:
   api:
     key: 76937134966920eec5cfb8f5510e3653
@@ -5,3 +9,8 @@ moli:
   qa:
     url: http://i.itpk.cn/api.php
 
+tencent:
+  appId: 2121016897
+  appKey: CuzRL6BtyzG9HMxv
+  qa:
+    url: https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat

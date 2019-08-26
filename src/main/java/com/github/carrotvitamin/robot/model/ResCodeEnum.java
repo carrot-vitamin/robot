@@ -14,6 +14,7 @@ public enum ResCodeEnum {
 
     QUESTION_IS_EMPTY("000901", "问题不能为空"),
     INVOKE_MOLI_QA_FAILURE("000902", "请求茉莉机器人问答失败"),
+    INVOKE_TENCENT_QA_FAILURE("000903", "请求企鹅闲聊失败"),
     ;
 
     private String code;

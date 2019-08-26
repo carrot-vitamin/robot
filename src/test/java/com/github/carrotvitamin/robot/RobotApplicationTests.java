@@ -1,6 +1,8 @@
 package com.github.carrotvitamin.robot;
 
-import com.github.carrotvitamin.robot.service.IMoLiService;
+import com.github.carrotvitamin.robot.sao.tencent.IQaSAO;
+import com.github.carrotvitamin.robot.service.moli.IMoLiService;
+import com.github.carrotvitamin.robot.service.tencent.IQAService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,21 @@ public class RobotApplicationTests {
         System.out.println("******************************************");
         System.out.println(this.moLiService.qa("你叫什么名字啊？").getData());
         System.out.println("******************************************");
+    }
+
+
+
+
+
+    @Autowired
+    private IQaSAO qaSAO;
+
+    @Autowired
+    private IQAService iqaService;
+
+    @Test
+    public void testTencentSAO() throws Exception {
+        System.out.println(this.iqaService.qa("早上好", "123"));
     }
 
 }
