@@ -43,7 +43,7 @@ public class RobotApplicationTests {
 
     @Test
     public void testTencentSAO() throws Exception {
-        System.out.println(this.iqaService.qa("早上好", "123"));
+//        System.out.println(this.iqaService.qa("早上好", "123"));
     }
 
 }

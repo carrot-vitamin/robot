@@ -10,9 +10,6 @@ public class RobotResponse {
 
     private String data;
 
-    public RobotResponse() {
-    }
-
     public RobotResponse(String data) {
         this.data = data;
     }
