@@ -28,13 +28,13 @@ public class QAController {
 
     @PostMapping
     public Response qa(QARequest request) {
-        log.info("请求茉莉系统问答，request=【{}】", request);
+        log.info("请求机器人系统问答，request=【{}】", request);
         try {
             RobotResponse robotResponse = this.tencentService.qa(request);
-            log.info("请求茉莉系统问答成功！request=【{}】，response=【{}】", request, robotResponse);
+            log.info("请求机器人系统问答成功！request=【{}】，response=【{}】", request, robotResponse);
             return Response.success(robotResponse.getData());
         } catch (RobotCheckException e) {
-            log.error("请求茉莉系统问答异常！request=【{}】", request, e);
+            log.error("请求机器人系统问答异常！request=【{}】", request, e);
             return Response.buildErrorResponse(e);
         }
     }
