@@ -1,6 +1,7 @@
-api:
-  key: 76937134966920eec5cfb8f5510e3653
-  secret: ny2b2ox2z7ml
+moli:
+  api:
+    key: 76937134966920eec5cfb8f5510e3653
+    secret: ny2b2ox2z7ml
+  qa:
+    url: http://i.itpk.cn/api.php
 
-qa:
-  url: http://i.itpk.cn/api.php

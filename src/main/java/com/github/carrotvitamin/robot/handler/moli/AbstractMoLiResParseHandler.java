@@ -1,4 +1,4 @@
-package com.github.carrotvitamin.robot.handler;
+package com.github.carrotvitamin.robot.handler.moli;
 
 import javax.annotation.PostConstruct;
 

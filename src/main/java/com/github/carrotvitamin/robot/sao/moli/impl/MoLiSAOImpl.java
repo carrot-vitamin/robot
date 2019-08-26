@@ -1,9 +1,9 @@
-package com.github.carrotvitamin.robot.sao.impl;
+package com.github.carrotvitamin.robot.sao.moli.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
-import com.github.carrotvitamin.robot.model.RobotRequest;
-import com.github.carrotvitamin.robot.sao.IMoLiSAO;
+import com.github.carrotvitamin.robot.model.moli.RobotRequest;
+import com.github.carrotvitamin.robot.sao.moli.IMoLiSAO;
 import com.project.base.util.EncodeUtils;
 import com.project.base.util.HttpUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import java.util.Map;
 @Service
 public class MoLiSAOImpl implements IMoLiSAO {
 
-    @Value("${qa.url}")
+    @Value("${moli.qa.url}")
     private String qaUrl;
 
     @Override

@@ -1,6 +1,6 @@
-package com.github.carrotvitamin.robot.sao;
+package com.github.carrotvitamin.robot.sao.moli;
 
-import com.github.carrotvitamin.robot.model.RobotRequest;
+import com.github.carrotvitamin.robot.model.moli.RobotRequest;
 
 /**
  * @author yinshaobo on 2019-08-22 09:39

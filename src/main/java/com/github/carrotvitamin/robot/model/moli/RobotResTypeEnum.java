@@ -1,4 +1,4 @@
-package com.github.carrotvitamin.robot.model;
+package com.github.carrotvitamin.robot.model.moli;
 
 /**
  * @author yinshaobo on 2019-08-22 16:54

@@ -1,6 +1,6 @@
-package com.github.carrotvitamin.robot.service;
+package com.github.carrotvitamin.robot.service.moli;
 
-import com.github.carrotvitamin.robot.model.RobotResponse;
+import com.github.carrotvitamin.robot.model.moli.RobotResponse;
 import com.github.carrotvitamin.robot.model.exception.RobotCheckException;
 
 /**

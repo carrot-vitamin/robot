@@ -1,13 +1,13 @@
-package com.github.carrotvitamin.robot.service.impl;
+package com.github.carrotvitamin.robot.service.moli.impl;
 
 import com.github.carrotvitamin.robot.factory.MoLiResParserFactory;
-import com.github.carrotvitamin.robot.handler.AbstractMoLiResParseHandler;
+import com.github.carrotvitamin.robot.handler.moli.AbstractMoLiResParseHandler;
 import com.github.carrotvitamin.robot.model.ResCodeEnum;
-import com.github.carrotvitamin.robot.model.RobotRequest;
-import com.github.carrotvitamin.robot.model.RobotResponse;
+import com.github.carrotvitamin.robot.model.moli.RobotRequest;
+import com.github.carrotvitamin.robot.model.moli.RobotResponse;
 import com.github.carrotvitamin.robot.model.exception.RobotCheckException;
-import com.github.carrotvitamin.robot.sao.IMoLiSAO;
-import com.github.carrotvitamin.robot.service.IMoLiService;
+import com.github.carrotvitamin.robot.sao.moli.IMoLiSAO;
+import com.github.carrotvitamin.robot.service.moli.IMoLiService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +21,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class MoLiServiceImpl implements IMoLiService {
 
-    @Value("${api.key}")
+    @Value("${moli.api.key}")
     private String apiKey;
 
-    @Value("${api.secret}")
+    @Value("${moli.api.secret}")
     private String apiSecret;
 
     @Autowired

@@ -1,7 +1,7 @@
-package com.github.carrotvitamin.robot.handler;
+package com.github.carrotvitamin.robot.handler.moli;
 
 import com.github.carrotvitamin.robot.factory.MoLiResParserFactory;
-import com.github.carrotvitamin.robot.model.RobotResTypeEnum;
+import com.github.carrotvitamin.robot.model.moli.RobotResTypeEnum;
 import org.springframework.stereotype.Component;
 
 /**

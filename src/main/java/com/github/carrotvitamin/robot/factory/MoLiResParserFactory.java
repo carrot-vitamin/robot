@@ -1,7 +1,7 @@
 package com.github.carrotvitamin.robot.factory;
 
-import com.github.carrotvitamin.robot.handler.AbstractMoLiResParseHandler;
-import com.github.carrotvitamin.robot.model.RobotResTypeEnum;
+import com.github.carrotvitamin.robot.handler.moli.AbstractMoLiResParseHandler;
+import com.github.carrotvitamin.robot.model.moli.RobotResTypeEnum;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;

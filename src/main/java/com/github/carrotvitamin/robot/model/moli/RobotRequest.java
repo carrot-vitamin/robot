@@ -1,4 +1,4 @@
-package com.github.carrotvitamin.robot.model;
+package com.github.carrotvitamin.robot.model.moli;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
